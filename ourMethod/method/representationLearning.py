@@ -26,7 +26,7 @@ from desc_modified.models_modified import network
 
 import os
 from sklearn.preprocessing import StandardScaler
-from preprocess import processLINCS
+# from preprocess import processLINCS
 
 
 def getRawData(dataPrefix):
