@@ -1,4 +1,4 @@
-# DRLM: A robust drug representation learning method and its applications
+# DRLM: a robust drug representation learning method and its applications
 
 ## 1 Introduction
 
