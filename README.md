@@ -8,7 +8,7 @@ High-quality and robust drug representations can broaden the understanding of ph
 
 Here we provide an implementation of DRLM with Python. The repository is organised as follows:
 
-- `dataset/drugMiRNAData/` contains the necessary dataset files for predicting miRNA-drug resistance associations, which comes from the paper  of Niu et al.[<sup>1</sup>](#R1) The drug-disease association dataset and the drug-drug interaction dataset can obtained from the paper of Zhang et al.[<sup>2</sup>](#R2) and the paper of Liu et al.[<sup>3</sup>](#R3), respectively.
+- `dataset/drugMiRNAData/` contains the necessary dataset files for predicting miRNA-drug resistance associations, which comes from the paper of Niu et al.[<sup>1</sup>](#R1) The drug-disease association dataset and the drug-drug interaction dataset can be obtained from the paper of Zhang et al.[<sup>2</sup>](#R2) and the paper of Liu et al.[<sup>3</sup>](#R3), respectively.
 - `ourMethod/method/` contains the code scripts of our proposed method. Details are as follows:
   - `representationLearning.py` consists of three modules, namely, the stacked autoencoder, the iterative clustering module and the therapeutic use discriminator.
   -  `expCV.py` performs 5-fold cross-validation experiments for downstream tasks.
